@@ -105,6 +105,23 @@ Stories, quiet horrors, fragments, and things preserved against silence.
   </p>
 </Link>
 
+<Link
+  href="#"
+  className="group block max-w-2xl mx-auto mt-6 border border-[#7F6848]/10 rounded-[2rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/20 hover:bg-white/[0.02]"
+>
+  <p className="text-[#A89272] uppercase tracking-[0.3em] text-xs mb-4">
+    Undated
+  </p>
+
+  <h2 className="font-[family-name:var(--font-cinzel)] text-2xl text-[#ECE5DA] mb-4">
+    Candle Room Notes
+  </h2>
+
+  <p className="font-[family-name:var(--font-spectral)] text-[#BFB8AD] italic leading-8 opacity-80 group-hover:opacity-100 transition">
+    Some nights writing feels less like creation and more like excavation.
+  </p>
+</Link>
+
         {/* Divider */}
         <div className="flex items-center justify-center mb-20">
 
