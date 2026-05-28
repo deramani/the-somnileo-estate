@@ -70,6 +70,23 @@ Stories, quiet horrors, fragments, and things preserved against silence.
 
         </div>
         
+        <Link
+  href="/stories/a-thing-remembered-imperfectly"
+  className="group block max-w-2xl mx-auto mt-16 border border-[#7F6848]/10 rounded-[2rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/25 hover:bg-white/[0.02]"
+>
+  <p className="text-[#A89272] uppercase tracking-[0.3em] text-xs mb-4">
+    November 12
+  </p>
+
+  <h2 className="font-[family-name:var(--font-cinzel)] text-2xl text-[#ECE5DA] mb-4">
+    A Thing Remembered Imperfectly
+  </h2>
+
+  <p className="font-[family-name:var(--font-spectral)] text-[#BFB8AD] italic leading-8 group-hover:text-[#D8D1C6] transition">
+    Memory is dishonest. It smooths edges, rearranges weather,
+    and leaves behind feelings sharper than facts.
+  </p>
+</Link>        
 
         {/* Divider */}
         <div className="flex items-center justify-center mb-20">
