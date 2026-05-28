@@ -69,10 +69,18 @@ Stories, quiet horrors, fragments, and things preserved against silence.
           </p>
 
         </div>
+
+        <div className="max-w-2xl mx-auto mt-20 mb-10 text-left">
+  <p className="font-[family-name:var(--font-cinzel)] uppercase tracking-[0.35em] text-[#A89272] text-xs mb-3">
+    Recovered Entries
+  </p>
+
+  <div className="h-px w-24 bg-gradient-to-r from-[#7F6848]/40 to-transparent" />
+</div>        
         
         <Link
   href="/stories/a-thing-remembered-imperfectly"
-  className="group block max-w-2xl mx-auto mt-16 border border-[#7F6848]/10 rounded-[2rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/25 hover:bg-white/[0.02]"
+  className="group block max-w-2xl mx-auto mt-16 border border-[#7F6848]/10 rounded-[1.5rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/25 hover:bg-white/[0.02]"
 >
   <p className="text-[#A89272] uppercase tracking-[0.3em] text-xs mb-4">
     November 12
@@ -90,7 +98,7 @@ Stories, quiet horrors, fragments, and things preserved against silence.
 
 <Link
   href="#"
-  className="group block max-w-2xl mx-auto mt-6 border border-[#7F6848]/10 rounded-[2rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/20 hover:bg-white/[0.02]"
+  className="group block max-w-2xl mx-auto mt-4 border border-[#7F6848]/10 rounded-[1.5rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/20 hover:bg-white/[0.02]"
 >
   <p className="text-[#A89272] uppercase tracking-[0.3em] text-xs mb-4">
     October 28
@@ -107,7 +115,7 @@ Stories, quiet horrors, fragments, and things preserved against silence.
 
 <Link
   href="#"
-  className="group block max-w-2xl mx-auto mt-6 border border-[#7F6848]/10 rounded-[2rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/20 hover:bg-white/[0.02]"
+  className="group block max-w-2xl mx-auto mt-4 border border-[#7F6848]/10 rounded-[1.5rem] bg-black/20 p-8 transition duration-700 hover:border-[#A89272]/20 hover:bg-white/[0.02]"
 >
   <p className="text-[#A89272] uppercase tracking-[0.3em] text-xs mb-4">
     Undated
@@ -155,14 +163,14 @@ Stories, quiet horrors, fragments, and things preserved against silence.
               <div className="absolute bottom-0 left-0 right-0 h-[160px] bg-gradient-to-t from-[#4A0812]/20 to-transparent opacity-0 transition duration-1000 group-hover:opacity-100" />
 
               {/* Inner frame */}
-              <div className="absolute inset-[12px] rounded-[2rem] border border-[#7F6848]/10 pointer-events-none" />
+              <div className="absolute inset-[12px] rounded-[1.5rem] border border-[#7F6848]/10 pointer-events-none" />
 
               {/* Depth seam */}
               <div className="absolute top-[18%] bottom-[18%] left-1/2 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-[#7F6848]/10 to-transparent opacity-20" />
 
               <div className="relative z-10 p-8">
 
-                <div className="aspect-[3/4] rounded-[2rem] bg-gradient-to-b from-[#111118] via-[#09090D] to-[#030304] flex items-center justify-center overflow-hidden">
+                <div className="aspect-[3/4] rounded-[1.5rem] bg-gradient-to-b from-[#111118] via-[#09090D] to-[#030304] flex items-center justify-center overflow-hidden">
 
                   <span className="text-[#7F6848]/40 text-6xl transition duration-1000 group-hover:text-[#C9B18C]/70 group-hover:scale-105">
                     ✒
