@@ -64,14 +64,24 @@ export default function StoriesPage() {
           </h1>
 
           <p className="font-[family-name:var(--font-spectral)] max-w-2xl mx-auto text-[#98A0B0] text-lg md:text-xl leading-relaxed">
-          Some things are written to be remembered.
-
-Others are written because forgetting becomes impossible.
-
+          Some things are written to be remembered. Others are written because forgetting becomes impossible. 
 Stories, quiet horrors, fragments, and things preserved against silence.
           </p>
 
         </div>
+
+        <div className="max-w-2xl mx-auto mt-16 border border-[#7F6848]/10 rounded-[2rem] bg-black/20 p-8 text-left">
+  <p className="font-[family-name:var(--font-cinzel)] uppercase tracking-[0.3em] text-[#A89272] text-xs mb-4">
+    A Thing Remembered Imperfectly
+  </p>
+
+  <p className="font-[family-name:var(--font-spectral)] text-[#C8C1B7] leading-8 italic">
+    Memory is dishonest.
+    <br /><br />
+    It smooths edges, rearranges weather, and leaves behind feelings
+    sharper than facts.
+  </p>
+</div>
 
         {/* Divider */}
         <div className="flex items-center justify-center mb-20">
