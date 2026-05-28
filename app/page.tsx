@@ -137,64 +137,56 @@ export default function Home() {
     description:
       "Horror, fiction, essays, journals, and things remembered imperfectly.",
   },
-  ].map((door) => (
+].map((door) => (
+  <Link
+    key={door.href}
+    href={door.href}
+    className="block"
+  >
+  <div
+        className="group relative overflow-hidden rounded-[2.5rem] border border-[#5C4A34]/30 bg-[#040406]/75 ring-1 ring-inset ring-white/[0.02] backdrop-blur-sm pt-6 transition duration-1000 hover:border-[#9A8260]/50 hover:bg-[#09090C]/70 hover:shadow-[0_0_90px_rgba(74,8,18,0.25)]
+        before:absolute
+        before:top-[-18px]
+        before:left-1/2
+        before:h-12
+        before:w-[70%]
+        before:-translate-x-1/2
+        before:rounded-t-full
+        before:border-t
+        before:border-[#7F6848]/10
+        before:content-['']"
+      >
+        {/* Cold moonlight */}
+        <div className="absolute top-0 left-1/2 h-[220px] w-[220px] -translate-x-1/2 rounded-full bg-[#BAC0CC]/5 blur-[80px] opacity-0 transition duration-1000 group-hover:opacity-100" />
 
-<Link href={door.href} className="block">
+        {/* Crimson undertone */}
+        <div className="absolute bottom-0 left-0 right-0 h-[140px] bg-gradient-to-t from-[#4A0812]/25 to-transparent opacity-0 transition duration-1000 group-hover:opacity-100" />
 
-<div
-  key={door.title}
-  className="group relative overflow-hidden rounded-[2.5rem] border border-[#5C4A34]/30 bg-[#040406]/75  ring-1 ring-inset ring-white/[0.02] backdrop-blur-sm pt-6 transition duration-1000 hover:border-[#9A8260]/50 hover:bg-[#09090C]/70 hover:shadow-[0_0_90px_rgba(74,8,18,0.25)]
-  before:absolute
-  before:top-[-18px]
-  before:left-1/2
-  before:h-12
-  before:w-[70%]
-  before:-translate-x-1/2
-  before:rounded-t-full
-  before:border-t
-  before:border-[#7F6848]/10
-  before:content-['']"
->
+        {/* Inner carved frame */}
+        <div className="absolute inset-[12px] rounded-[1.6rem] border border-[#7F6848]/10 pointer-events-none" />
 
+        {/* Central seam */}
+        <div className="absolute top-[18%] bottom-[18%] left-1/2 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-[#7F6848]/10 to-transparent opacity-25 transition duration-1000 group-hover:opacity-45" />
 
+        <div className="relative z-10 p-10 text-center min-h-[520px] flex flex-col justify-center">
+          <div className="mb-6 text-[#9A8260] text-6xl transition duration-1000 group-hover:scale-105 group-hover:text-[#C9B18C]">
+            {door.sigil}
+          </div>
 
-      {/* Cold moonlight */}
-      <div className="absolute top-0 left-1/2 h-[220px] w-[220px] -translate-x-1/2 rounded-full bg-[#BAC0CC]/5 blur-[80px] opacity-0 transition duration-1000 group-hover:opacity-100" />
+          <h3 className="font-[family-name:var(--font-cinzel)] text-3xl text-[#ECE5DA] tracking-[0.12em] mb-5 transition duration-1000 group-hover:tracking-[0.14em] group-hover:text-[#F3EEE6]">
+            {door.title}
+          </h3>
 
-      {/* Crimson undertone */}
-      <div className="absolute bottom-0 left-0 right-0 h-[140px] bg-gradient-to-t from-[#4A0812]/25 to-transparent opacity-0 transition duration-1000 group-hover:opacity-100" />
-
-
-      {/* Inner carved frame */}
-      <div className="absolute inset-[12px] rounded-[1.6rem] border border-[#7F6848]/10 pointer-events-none" />
-
-      {/* Central seam */}
-<div className="absolute top-[18%] bottom-[18%] left-1/2 w-px -translate-x-1/2 bg-gradient-to-b from-transparent via-[#7F6848]/10 to-transparent opacity-25 transition duration-1000 group-hover:opacity-45" />
-
-      <div className="relative z-10 p-10 text-center min-h-[520px] flex flex-col justify-center">
-
-        <div className="mb-6 text-[#9A8260] text-65xl transition duration-1000 group-hover:scale-105 group-hover:text-[#C9B18C]">
-          {door.sigil}
-        </div>
-
-        <h3 className="font-[family-name:var(--font-cinzel)] text-3xl text-[#ECE5DA] tracking-[0.12em] mb-5 transition duration-1000 group-hover:tracking-[0.14em] group-hover:text-[#F3EEE6]">
-          {door.title}
-        </h3>
-
-        <p className="font-[family-name:var(--font-spectral)] text-[#8F97A7] leading-relaxed transition duration-1000 group-hover:text-[#BAC0CC]">
-          {door.description}
-        </p>
-
+          <p className="font-[family-name:var(--font-spectral)] text-[#8F97A7] leading-relaxed transition duration-1000 group-hover:text-[#BAC0CC]">
+            {door.description}
+          </p>
+          </div>
       </div>
-
-    </div>
-    </Link>
-  ))}
+      </Link>
+))}
 </div>
+</section>
 
-</section>  
-
-    </main>
-  )
-  ;
+</main>
+);
 }
